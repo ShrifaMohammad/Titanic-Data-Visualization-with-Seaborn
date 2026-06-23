@@ -1,6 +1,6 @@
 # Titanic Data Visualization with Seaborn
 
-An exploratory data visualization exercise using the classic Titanic dataset, built to practice core `seaborn` plot types and uncover patterns in passenger demographics, fares, and survival-related attributes.
+An exploratory data visualization using the classic Titanic dataset, built to practice core `seaborn` plot types and uncover patterns in passenger demographics, fares, and survival-related attributes.
 
 ## Dataset
 
@@ -28,26 +28,4 @@ All plots render directly in the notebook with their outputs saved, so you can v
 - seaborn
 - Matplotlib
 
-## Repo contents
 
-```
-├── titanic_data_visualization.ipynb
-├── requirements.txt
-└── README.md
-```
-
-## Setup
-
-```bash
-git clone https://github.com/YOUR_USERNAME/titanic-data-visualization.git
-cd titanic-data-visualization
-pip install -r requirements.txt
-```
-
-Open `titanic_data_visualization.ipynb` in Jupyter — the Titanic dataset loads automatically via seaborn, no external files needed.
-
-## What I'd improve next
-
-- Add survival rate as a hue/color dimension across these plots to connect the visualizations directly to outcomes
-- Explore fare and age outliers more closely with violin plots
-- Add a pairplot for a fuller multivariate view of the dataset
